@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminmainComponent } from './components/adminmain/adminmain.component';
 import { AdminchangepasswordComponent } from './components/adminchangepassword/adminchangepassword.component';
 import { AdminaddproductComponent } from './components/adminaddproduct/adminaddproduct.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AdminaddproductComponent } from './components/adminaddproduct/adminaddp
     AdminloginComponent,
     AdminmainComponent,
     AdminchangepasswordComponent,
-    AdminaddproductComponent
+    AdminaddproductComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
